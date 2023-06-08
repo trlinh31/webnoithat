@@ -1,0 +1,40 @@
+.text-hover:hover{
+    color: var(--primary-color) !important;
+    transition: all .25s ease-out;
+}
+
+.banner{
+    padding-top: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product-item{
+    min-height: 446px;
+    max-height: 446px;
+}
+
+.product-item:hover .product-image img{
+    transform: scale(1.2);
+}
+
+.product-image{
+    width: 100%;
+    height: 300px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    padding-bottom: 8px;
+    overflow: hidden;
+}
+
+.product-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .2s ease-out;
+}
+
+.product-img-large{
+    width: 100%;
+    height: 400px;
+}
